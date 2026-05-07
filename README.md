@@ -1,6 +1,6 @@
 #  New Project
 
-Bem-vindo ao **New Project** 
+Bem-vindo ao **New Project**
 
 Este repositório foi criado para desenvolver ideias, testes e projetos modernos utilizando tecnologia e programação.
 

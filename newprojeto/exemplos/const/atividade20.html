@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade20</title>
+</head>
+
+<body>
+    <h1>atividade20</h1>
+    <label for="">Digite seu nome:</label>
+    <input type="text" id="nome" placeholder="Digite o número aqui">
+
+    <label for="">Digite o primeiro número:</label>
+    <input type="number," id="n1" placeholder="Digite o número aqui">
+
+    <label for="">Digite o segundo número:</label>
+    <input type="number" id="n2" placeholder="Digite o número aqui">
+
+    <label for="">Digite o teceiro número:</label>
+    <input type="number" id="n3" placeholder="Digite o número aqui">
+
+    <button onclick="mostra()">mostra</button>
+    <p id="resultado"></p>
+    <script>
+        const sistema = " Obrigado!!!"
+        function mostra() {
+            let nome = document.getElementById("nome").value;
+
+            let n1 = Number(document.getElementById("n1").value);
+
+            let n2 = Number(document.getElementById("n2").value);
+
+            let n3 = Number(document.getElementById("n3").value);
+
+            let mult = n1 * n2 * n3
+
+            document.getElementById("resultado").innerHTML = "Seu nome é " + nome + " e sua multiplição é " + mult + sistema;
+        }
+    </script>
+
+</body>
+
+</html>

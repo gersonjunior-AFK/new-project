@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 18</title>
+</head>
+
+<body>
+    <h1>atividade 18</h1>
+    <label for="">Digite um número para somar:</label>
+    <input type="number" id="mult">
+
+    <label for="">Digite um número para somar:</label>
+    <input type="number" id="mult2">
+
+    <button onclick="somar()">Clique Aqui para somar</button>
+    <p id="resultado"></p>
+    <script>
+        function somar() {
+            let n1 = Number(document.getElementById("mult").value);
+            let n2 = Number(document.getElementById("mult2").value);
+
+            let soma = n1 + n2
+
+            document.getElementById("resultado").innerHTML = "o resultado é: " + soma;
+        }
+    </script>
+</body>
+
+</html>

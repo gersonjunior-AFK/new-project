@@ -1,33 +1,41 @@
-#  New Project
+# new-project
 
-Bem-vindo ao **New Project**
+Minimal frontend interface built with HTML, CSS and JavaScript.
 
-Este repositório foi criado para desenvolver ideias, testes e projetos modernos utilizando tecnologia e programação.
+## Overview
 
----
+This project was created as a personal frontend experiment focused on responsive layouts, interface structure and modern styling concepts.
 
-##  Sobre
+The main goal was to explore clean component organization and lightweight browser-based interactions without external frameworks.
 
-O projeto ainda está em desenvolvimento e receberá novas atualizações futuramente.
+## Stack
 
----
+* HTML5
+* CSS3
+* JavaScript
 
-##  Tecnologias
-
-- JavaScript
-- Node.js
-- HTML
-- CSS
-- Git & GitHub
-
----
-
-##  Estrutura
+## Structure
 
 ```bash
-new-project/
-│
-├── src/
-├── public/
-├── README.md
-└── package.json# new-project
+.
+├── css
+├── js
+├── assets
+└── index.html
+```
+
+## Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/gersonjunior-AFK/new-project.git
+```
+
+Open `index.html` in your browser.
+
+## Notes
+
+This repository is part of a collection of personal frontend experiments and interface studies.
+
+Additional improvements and UI refinements may be added over time.
